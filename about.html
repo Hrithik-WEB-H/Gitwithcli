@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        first: '#da373d',
+                        second:
+                    },
+                    fontSize: {
+                        large: '60px',
+                        medium: '40px',
+                        small: '25px',
+                        basic: '17px'
+                    }
+                }
+            }
+        }
+
+    </script>
+</head>
+
+<body class="bg-sky-950">
+
+    <!-- Headeer section -->
+    <header class="shadow-xl flex pt-0">
+        <div class="w-[1100px] mx-auto item-center py-5">
+            <div class="flex">
+                <div>
+                    <img class="h-20 w-20" src="./Images/Logo.png" alt="My Logo">
+                </div>
+                <div>
+                    <h1 class="text-white text-4xl font-bold pt-8">HRITHIK</h1>
+                </div>
+
+            </div>
+            <nav class="">
+                <ul class="flex flex-row-reverse items-center ">
+                    <li class="ps-12 text-xl text-white font-semibold"><a href="index.html">Home</a></li>
+                    <li class="ps-12 text-xl text-white font-semibold"><a href="about.html">About Me</a></li>
+                    <li class="ps-12 text-xl text-white font-semibold"><a href="project.html">Projects</a></li>
+                    <li class="ps-12 text-xl text-white font-semibold"><a href="service.html">Services</a></li>
+                    <li class="ps-12 text-xl text-white font-semibold"><a href="contact.html">Contact</a></li>
+                    <li
+                        class="ps-6 pr-6 pt-3 pb-3 text-xl text-white font-semibold border-solid  bg-blue-600 rounded-full">
+                        <a href="talk.html">Lets'Talk</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+</body>
+
+</html>
